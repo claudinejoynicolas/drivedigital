@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Brown LL";
+  src: url(/styles/font/BrownLL-Regular.woff);
+}
+
+.font {
+  font-family: "Brown LL";
+}
+
+.top-bar {
+  height: 36px;
+  background-color: #181800;
+  color: #F3E6FF;
+  font-family: "Brown LL";
+  font-size: 12px;
+  letter-spacing: 0.43px;
+  line-height: 36px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#header {
+  height: 160px;
+  color: #181800;
+  font-family: "Brown LL";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 160px;
+  padding: 0 20px;
+}
+
+#header a {
+  color: #181800;
+}
+
+.logo {
+  height: 35px;
+  margin-left: -92px;
+}
+
+.h1-banner {  
+  font-size: 50px;
+  letter-spacing: -1.74px;
+  line-height: 55px;
+}
+
+.p-banner { 
+  font-size: 24px;
+  letter-spacing: 0.67px;
+}
+
+.carousel-caption-left {
+  font-family: "Brown LL";
+  position: absolute;
+  top: 40%;
+  left: 100px;
+  z-index: 10;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.btn-custom {
+  color: #FFFFFF !important;
+  background-color: #181800 !important;
+  font-family: "Brown LL" !important;
+  font-size: 16px !important;
+  padding: 15px 40px !important;
+  border-radius: 0 !important;
+  letter-spacing: 1px !important;
+  line-height: 17px !important;
+}
+
+.btn-custom:hover,
+.btn-custom:active {
+  color: #BD5498 !important;
+}
+
+.text-pink {
+  color: #BD5498;
+}
